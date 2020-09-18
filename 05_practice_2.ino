@@ -14,10 +14,10 @@ void loop()
   
   while(i<=5) {  
     digitalWrite(7, LOW); //LED ON
-    delay(500);  
+    delay(100);  
     
     digitalWrite(7, HIGH);  //LED OFF
-    delay(500); 
+    delay(100); 
    
     i++;  
    } 
